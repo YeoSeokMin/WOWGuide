@@ -12,4 +12,4 @@
 
 ![wowguide](https://user-images.githubusercontent.com/60656477/80168127-0e481500-861d-11ea-88c3-5b2a5e064eb3.PNG)   
 ### * 직업 별 카테고리 진입
-+ 각 9개의 카테고리 진입 시 기술 특성에 따라 
++ 각 9개의 카테고리 진입 시 기술 특성에 따라 FrameLayout 을 이용한 뷰 변경
