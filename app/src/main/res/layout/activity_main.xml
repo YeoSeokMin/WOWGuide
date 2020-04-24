@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_weight="1"
+        android:background="#000000">
+
+        <ImageView
+            android:id="@+id/ivEla"
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:src="@drawable/ela"></ImageView>
+
+        <ImageButton
+
+            android:padding="10dp"
+            android:id="@+id/ibWorrier"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/ivEla"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:scaleType="centerCrop"
+            android:src="@drawable/worrier"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/ibRouge"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/ivEla"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rouge">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ibBudu"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/ibRouge"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/budu"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/ibMagic"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/ibWorrier"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/magic"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/ibKisa"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/ibMagic"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kisa"></ImageButton>
+
+        <Button
+            android:id="@+id/btnHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:background="#000000"
+            android:gravity="center"
+            android:text="와우 헤드"
+            android:textColor="#fff"
+            android:textSize="20dp"></Button>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_weight="1"
+        android:background="#000000">
+
+        <ImageView
+            android:id="@+id/ivHord"
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:src="@drawable/hord"></ImageView>
+
+        <ImageButton
+            android:id="@+id/ibHunter"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/ivHord"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hunter"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/ibDruid"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/ivHord"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/druid"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/ibSaje"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/ibDruid"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/saje"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/ibSulsa"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/ibHunter"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sulsa"></ImageButton>
+
+        <EditText
+            android:id="@+id/edtID"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:hint="아이디 입력"
+            android:textColorHint="#505050"></EditText>
+
+        <Button
+            android:id="@+id/btnLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/edtID"
+            android:background="#000000"
+            android:text="GO"
+            android:layout_marginBottom="10dp"
+            android:textColor="#fff"
+            android:textSize="12dp"></Button>
+
+    </RelativeLayout>
+
+</LinearLayout>
