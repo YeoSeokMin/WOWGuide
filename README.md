@@ -11,5 +11,5 @@
 + 하단 우측부 사용자 닉네임을 EditText 입력 후 검색 시 [Wow Classic Log](https://ko.classic.warcraftlogs.com/) 연결하여 본인의 Score 확인 가능   
 
 ![wowguide](https://user-images.githubusercontent.com/60656477/80168127-0e481500-861d-11ea-88c3-5b2a5e064eb3.PNG)   
-직업 별 카테고리 진입시 화면
-### * 
+### * 직업 별 카테고리 진입
++ 
